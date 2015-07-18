@@ -1,0 +1,82 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	margin:0 auto;
+	height: 2000px;
+	background-color: lightgrey;
+	width: 800px;
+}
+#header{
+	padding: 10px;
+	background-color: grey;
+	text-align: right;
+}
+#header p {
+	font-size: 14px;
+	color: white;
+}
+#header h2 {
+	font-size: 40px;
+	font-weight: bold;
+
+}
+#search_bar{
+	margin-top: 50px;
+	height: 50px;
+}
+#search_bar input {
+	height: 20px;
+	line-height: 20px;
+	margin: 0 auto;
+}
+#search_bar button{
+	height: 20px;
+}
+/**
+ * nav_relative作为定位参照物{position:relative;}
+ * decorate下划线{position:absoluate;}
+ * .fixed悬浮设置类{position:fixed;top:0;}
+ */
+#nav_relative{
+	margin-top: 50px;
+	position: relative;
+}
+#nav{
+	background-color: grey;
+	height:50px;
+	border-bottom: 3px solid black;
+	width: 800px;
+}
+.fixed{
+	position: fixed;
+	top:0;
+	z-index: 9;
+}
+#decorate{
+	border-bottom: 3px solid red;
+	width: 110px;
+	margin-top: 50px;
+	position: absolute;
+}
+#nav ul{
+	padding: 0px;
+	margin:0px;
+}
+#nav ul li{
+	list-style-type: none;
+	display: block;
+	width:110px;
+	float: left;
+	text-align: center;
+}
+#nav a{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	line-height: 50px;
+}
+#nav a:hover{
+	color: black;
+}
